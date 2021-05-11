@@ -1,0 +1,57 @@
+[
+	{
+		"title": "Video Games",
+		"image": "videoGames.jpeg",
+		"mediaTitle": "Video Games",
+		"details": "",
+		"id": 1
+	},
+	{
+		"title": "Open Source",
+		"image": "recommenderSystem.jpeg",
+		"mediaTitle": "Open Source",
+		"details": "",
+		"id": 2
+	},
+	{
+		"title": "Working Out",
+		"image": "recommenderSystem.jpeg",
+		"mediaTitle": "Working Out",
+		"details": "",
+		"id": 3
+	},
+	{
+		"title": "Reading Books",
+		"image": "recommenderSystem.jpeg",
+		"mediaTitle": "Reading Books",
+		"id": 4
+	},
+	{
+		"title": "Watching Movies",
+		"image": "recommenderSystem.jpeg",
+		"mediaTitle": "Movies",
+		"details": "",
+		"id": 5
+	},
+	{
+		"title": "Chess",
+		"image": "Chess.jpeg",
+		"mediaTitle": "Chess",
+		"details": "",
+		"id": 6
+	},
+	{
+		"title": "Programming",
+		"image": "Programming.jpeg",
+		"mediaTitle": "Programming",
+		"details": "",
+		"id": 6
+	},
+	{
+		"title": "Billiards",
+		"image": "Billiards.jpeg",
+		"mediaTitle": "Billiards",
+		"details": "",
+		"id": 6
+	}
+]

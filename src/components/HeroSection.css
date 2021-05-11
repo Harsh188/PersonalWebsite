@@ -1,0 +1,124 @@
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+body, html{
+  height: 100%;
+}
+
+.hero-container {
+  background-image: url('../style/images/img-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  /*object-fit: contain;*/
+}
+
+.hero-container > h1 {
+  color: #fff;
+  font-size: 100px;
+  margin-top: -100px;
+}
+
+.hero-container > p {
+  margin-top: 8px;
+  text-shadow: 2px 2px 0px #242222;
+  color: #fff;
+  font-size: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.hero-btns {
+  margin-top: 32px;
+}
+
+.hero-btns .btn {
+  margin: 6px;
+}
+
+.fa-play-circle {
+  margin-left: 4px;
+}
+
+.typewriter h1 {
+  color: #fff;
+  text-shadow: 2px 2px 0px #9400D3;
+  font-size: 10vh;
+  display: flex;
+  margin-top: -100px;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid purple; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: #242222 }
+  50% { border-color: #9400D3 }
+}
+
+
+@media screen and (max-width: 1400px) {
+  .hero-container > h1 {
+    font-size: 70px;
+    margin-top: -150px;
+  }
+
+  .typewriter h1 {
+    font-size: 5vh;
+    margin-top: -150px;
+    letter-spacing: .10em;
+    white-space: normal; /* Keeps the content on a single line */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container > h1 {
+    font-size: 3px;
+    margin-top: -100px;
+  }
+
+  .typewriter h1 {
+    font-size: 4vh;
+    margin-top: -100px;
+    letter-spacing: .05em;    
+    white-space: normal; /* Keeps the content on a single line */
+  }
+
+  .hero-container > p {
+    font-size: 30px;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}

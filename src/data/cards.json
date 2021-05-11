@@ -1,0 +1,34 @@
+[
+	{
+		"title": "Recommender System",
+		"image": "recommenderSystem.jpeg",
+		"mediaTitle": "Recommender System",
+		"details": "A program which reads a CSV file filled with multiple books and other features. Then it performs a count matrix and cosine similarity to find a book that's most similar to the one inputted.",
+		"url": "https://github.com/Harsh188/Recommender-System",
+		"id": 1
+	},
+	{
+		"title": "RecycleNet",
+		"image": "recommenderSystem.jpeg",
+		"mediaTitle": "RecycleNet",
+		"details": "A deep learning model which is based on residual networks with a custom SVM layer to classify images of recyclable waste consisting of a single object.",
+		"url": "https://github.com/Harsh188/RecycleNet",
+		"id": 2
+	},
+	{
+		"title": " DialogFlow ChatBot",
+		"image": "recommenderSystem.jpeg",
+		"mediaTitle": "ChatBot",
+		"details": "By utilizing google's DialogFlow, I built a simple chatbot system that can detect intents and reply based on the category identified. I integrated this chatbot to Facebook messenger as an independent system that can function in real time.",
+		"url": "https://github.com/Harsh188/ChatBot_IO",
+		"id": 3
+	},
+	{
+		"title": "Sentiment Analysis",
+		"image": "recommenderSystem.jpeg",
+		"mediaTitle": "SentimentAnalysis",
+		"details": "This is a small NLP project which uses sentiment analysis and machine learning to classify words into positive or negative connotations.",
+		"url": "https://github.com/Harsh188/SentimentAnalysis",
+		"id": 4
+	}
+]
